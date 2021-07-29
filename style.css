@@ -1,0 +1,156 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    color: #2A4A5C;
+    background-color: #EFF6FF;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+/* Левая часть страницы */
+.content{
+    float: left;
+    /* opacity: 0.1; */
+}
+.logo{
+    position: absolute;
+    left: 0px;
+    width: 150px;
+    height: auto;
+    margin: 40px;
+}
+/* Правая часть страницы */
+/* .right-part{
+    
+} */
+/* Заголовок и абзац */
+.Zagolovok-Abzac p{
+    font-size: 22px;
+}
+/* Регистрация через Facebook или Linkedin */
+.Link-To-Register{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 20% 20%;
+    column-gap: 40px;
+}
+.Link-To-Register img{
+    /* float: left; */
+    width: 10%;
+    height: auto;
+    padding: 3%;
+    padding-top: 5%;
+    float: left;
+}
+.Link-To-Register button:hover{
+    cursor: pointer;
+    color: black;
+}
+.facebook{
+    margin-top: 5%;
+    background-color: #255A9B;
+    height: 90%; width: 100%;
+    color: white;
+    border: 0px;
+    text-align: center;
+}
+.linkedin{
+    margin-top: 5%;
+    background-color: #0076B6;
+    height: 90%; width: 100%;
+    color: white;
+    border: 0px;
+    text-align: center;
+}
+/* ---OR--- */
+.OR hr{
+    width: 150px;
+    display: inline-block;
+    margin-top: 5%;
+}
+.left-hr{
+    margin-left: 6%;
+}
+/* Форма регистрации */
+/* Email и Phone */
+.registration-field{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 20% 20%;
+    column-gap: 40px;
+}
+.registration-field label{
+    position: absolute;
+    padding-left: 6px;
+    padding-top: 4px;
+    font-size: 14px;
+    color: black;
+}
+.registration-field input{
+    height: 30px;
+    border: 1px solid gray;
+    padding-top: 2px;
+}
+.registration-field .enter:focus{
+    outline: none;
+    box-shadow:-2px 0px 0px 0px lightskyblue;
+}
+.registration-field .enter{
+    padding: 24px 0px 5px 8px;
+}
+.label-phone{
+    margin-left: 13%;
+}
+.h2{
+    margin-top: 5%;
+}
+/* Кнопки выбора */
+.radio-button{
+    font-weight: bold;
+    display: flex;
+    margin-top: 5%;
+}
+.radio-button input{
+    height: 45px;
+}
+
+.radio-button input:hover{
+    cursor: pointer;
+}
+#type{
+    margin-left: 5%;
+}
+/* Описание выбранной кнопки */
+.description{
+    font-family: 'Barlow', sans-serif;
+    background-color: white;
+    padding: 1%;
+    display: flex;
+    width: 27%;
+}
+/* Соглашение */
+#usl{
+    color: #7B8A92;
+    height: auto;
+}
+#usl:hover{
+    cursor: pointer;
+}
+/* Подробнее */
+.link-full-terms{
+    color: #3698FB;
+    font-weight: bold;
+}
+/* Создание аккаунта */
+.createAkk{
+    background-color: #0076B6;
+    height: 50px;
+    width: 200px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.createAkk:hover{
+    cursor: pointer;
+    color: black;
+}
