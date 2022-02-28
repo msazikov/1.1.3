@@ -6,11 +6,18 @@ body{
     display: grid;
     grid-template-columns: 45% 55%;
 }
-/* Левая часть страницы */
-.content{
-    float: left;
-    /* opacity: 0.1; */
+.x{
+    margin-left: 100px;
 }
+main{
+    display: grid;
+    grid-template-columns: 100% 100%;
+}
+/* Левая часть страницы */
+/* .content{
+    float: left;
+    opacity: 0.1;
+} */
 .logo{
     position: absolute;
     left: 0px;
@@ -86,9 +93,9 @@ body{
     color: black;
 }
 .registration-field input{
-    height: 30px;
+    height: 30px;   
     border: 1px solid gray;
-    padding-top: 2px;
+    
 }
 .registration-field .enter:focus{
     outline: none;
@@ -96,6 +103,10 @@ body{
 }
 .registration-field .enter{
     padding: 24px 0px 5px 8px;
+}
+.registration{
+    display: grid;
+    grid-template-columns: 200px 200px;
 }
 .label-phone{
     margin-left: 13%;
